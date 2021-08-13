@@ -3,8 +3,21 @@
 
 var customerName = 'bob'
 
-function upperCaseCustomerName() {
-    customerName.toUpperCase();
-    // return upperCaseCustomerName(); 
+ function upperCaseCustomerName() {
+     return customerName.toUpperCase();
 }
 
+var bestCustomer
+
+function setBestCustomer() { 
+    
+}
+
+
+
+
+
+// function capitalize(word) {
+//     const lower = str.toLowerCase();
+//     return str.charAt(0).toUpperCase() + lower.slice(1);
+//   }

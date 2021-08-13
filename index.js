@@ -4,15 +4,27 @@
 var customerName = 'bob'
 
  function upperCaseCustomerName() {
-     return customerName.toUpperCase();
+    
+    customerName = customerName.toUpperCase();
+    return customerName;
+
 }
 
-var bestCustomer
+var bestCustomer 
 
 function setBestCustomer() { 
-    
+    bestCustomer = 'not bob'
 }
 
+function overwriteBestCustomer() {
+    bestCustomer = 'maybe bob'
+}
+
+const ListeningStateChangedEvent = "value";
+
+function changeLeastFavoriteCustomer() {
+    ListeningStateChangedEvent = 'Nope';
+}
 
 
 
